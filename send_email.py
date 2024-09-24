@@ -8,6 +8,7 @@ def send_email(message, from_email):
     username = "scarrier99@gmail.com"
     password = os.getenv("GMAIL_PASSWORD")
 
+
     receiver = "scarrier99@gmail.com"
     context = ssl.create_default_context()
 
